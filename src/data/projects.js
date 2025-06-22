@@ -18,7 +18,7 @@ const projects = [
     image: project2, // <-- Replace with actual image path
     technologies: ["React", "Vite", "Tailwind", "Framer Motion"],
     github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.vercel.app",
+    demo: "https://portfolio-akanksha-ten.vercel.app/",
   },
   {
     id: 3,
