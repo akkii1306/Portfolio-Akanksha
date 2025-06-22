@@ -17,7 +17,7 @@ const projects = [
     description: "My personal portfolio built with Vite, React, and Framer Motion.",
     image: project2, // <-- Replace with actual image path
     technologies: ["React", "Vite", "Tailwind", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/akkii1306/Portfolio-Akanksha",
     demo: "https://portfolio-akanksha-ten.vercel.app/",
   },
   {
