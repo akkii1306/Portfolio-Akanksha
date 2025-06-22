@@ -10,8 +10,21 @@ const projectCard = ({ project }) => {
         ))}
       </div>
       <div className="flex gap-4 mt-4">
-        <a href={project.github} target="_blank" className="text-[#810CA8] underline">GitHub</a>
-        <a href={project.demo} target="_blank" className="text-[#810CA8] underline">Live Demo</a>
+       <a
+  href={project.github}
+  target="_blank"
+  className="text-[#810CA8] dark:text-[#E5B8F4] underline hover:text-[#C147E9] dark:hover:text-white transition"
+>
+  GitHub
+</a>
+<a
+  href={project.demo}
+  target="_blank"
+  className="text-[#810CA8] dark:text-[#E5B8F4] underline hover:text-[#C147E9] dark:hover:text-white transition"
+>
+  Live Demo
+</a>
+
       </div>
     </div>
   );

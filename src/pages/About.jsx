@@ -20,7 +20,8 @@ const skills = [
 const About = () => {
   return (
     <section className="min-h-screen px-6 py-20 bg-[#E5B8F4] dark:bg-[#1A103D] text-[#2D033B] dark:text-[#EDE9F9] transition-colors duration-300">
-      <div className="max-w-6xl mx-auto text-center space-y-16">
+      <div className="max-w-6xl mx-auto text-center space-y-16 mt-12">
+
         {/* Heading & Intro */}
         <div className="space-y-6">
           <motion.h2

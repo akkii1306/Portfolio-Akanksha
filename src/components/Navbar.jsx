@@ -28,6 +28,14 @@ const Navbar = () => {
     <button className="md:hidden text-2xl" onClick={toggleMenu}>
       {isOpen ? <FaTimes /> : <FaBars />}
     </button>
+    <a
+  href="/resume.pdf"
+  download
+  className="bg-[#810CA8] hover:bg-[#C147E9] text-white px-5 py-2 rounded font-medium transition"
+>
+  Download Resume
+</a>
+
   </div>
 
   {isOpen && (
@@ -36,9 +44,12 @@ const Navbar = () => {
       <NavLink to="/about" onClick={toggleMenu} className={navLinkStyle}>About</NavLink>
       <NavLink to="/projects" onClick={toggleMenu} className={navLinkStyle}>Projects</NavLink>
       <NavLink to="/contact" onClick={toggleMenu} className={navLinkStyle}>Contact</NavLink>
+      
       <ThemeToggle />
+      
     </div>
   )}
+  
 </nav>
 
   );

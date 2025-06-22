@@ -1,5 +1,10 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+/* index.css */
+html,
+body {
+  @apply bg-[#E5B8F4] dark:bg-[#1A103D] text-[#2D033B] dark:text-[#EDE9F9] m-0 p-0;
+}
 
 html {
   scroll-behavior: smooth;
@@ -23,4 +28,9 @@ html {
 }
 body {
   font-family: 'Sora', sans-serif;
+}
+/* Optional: Style the nprogress bar */
+#nprogress .bar {
+  background: #810CA8 !important; /* Purple accent */
+  height: 3px;
 }

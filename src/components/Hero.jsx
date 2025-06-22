@@ -54,6 +54,7 @@ const Hero = () => {
             className="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover border-4 border-[#810CA8] shadow-lg mx-auto"
           />
         </motion.div>
+        
       </div>
     </section>
   );
